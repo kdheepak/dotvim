@@ -107,10 +107,6 @@ set so=7
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
-map <C-n> :NERDTreeToggle<CR>
-
-
-
 nnoremap Y y$
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
