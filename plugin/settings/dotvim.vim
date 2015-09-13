@@ -273,3 +273,15 @@ let g:indentLine_color_gui = '#A4E57E'
 " none X terminal
 let g:indentLine_color_tty_light = 7 " (default: 4)
 let g:indentLine_color_dark = 1 " (default: 2)
+
+" :let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+:let $NVIM_TUI_ENABLE_CURSOR_SHAPE=1
+
+let g:slime_target = "tmux"
+let g:slime_python_ipython = 1
+
+let g:tmux_sessionname=''
+let g:tmux_windowname='./ipython.sh'
+let g:tmux_panenumber='2'
+let g:vimux_pyutils_use_tslime=1
+
