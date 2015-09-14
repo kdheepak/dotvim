@@ -104,9 +104,6 @@ match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 nnoremap Y y$
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
@@ -126,6 +123,7 @@ let g:mapleader = ','
 
 highlight Cursor guifg=black guibg=white
 
+" open nerdtree with leader n
 nmap <silent> <leader>n :NERDTreeToggle<CR>
 
 nmap <leader>a <Esc>:Ack!
