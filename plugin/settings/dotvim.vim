@@ -32,6 +32,7 @@ endif
 
 
 set hlsearch
+set incsearch
 
 " press space to turn off highlighting and clear any message already
 " displayed.
