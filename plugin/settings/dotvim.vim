@@ -285,6 +285,6 @@ nnoremap L $
 
 nnoremap j gj
 nnoremap k gk
-nnoremap J H
-nnoremap K L
+nnoremap J j
+nnoremap K k
 
