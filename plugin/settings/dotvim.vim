@@ -280,3 +280,5 @@ let g:tmux_windowname='./ipython.sh'
 let g:tmux_panenumber='2'
 let g:vimux_pyutils_use_tslime=1
 
+nnoremap H $
+nnoremap L 0
