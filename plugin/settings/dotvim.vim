@@ -54,3 +54,7 @@ nnoremap k gk
 nnoremap <C-e> 3<C-e>
 nnoremap <C-y> 3<C-y>
 
+" search for word under the cursor
+nnoremap <leader>/ "fyiw :/<c-r>f<cr>
+
+
