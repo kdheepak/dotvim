@@ -70,3 +70,9 @@ set backspace=indent,eol,start
 " Remove whitespace
 nnoremap <Leader>rtw :%s/\s\+$//ge<CR>
 
+:command WQ wq
+:command Wq wq
+:command W w
+:command Q q
+:command Qa qa
+:command QA qa
