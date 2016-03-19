@@ -67,3 +67,6 @@ nnoremap Y y$
 " make backspace behave in a sane manner
 set backspace=indent,eol,start
 
+" Remove whitespace
+nnoremap <Leader>rtw :%s/\s\+$//ge<CR>
+
