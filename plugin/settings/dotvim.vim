@@ -57,4 +57,13 @@ nnoremap <C-y> 3<C-y>
 " search for word under the cursor
 nnoremap <leader>/ "fyiw :/<c-r>f<cr>
 
+"" highlight conflicts
+match ErrorMsg '^\(<\|=\|>\)\{7\}\([^=].\+\)\?$'
+
+" Set 7 lines to the cursor - when moving vertically using j/k
+set so=7
+
+nnoremap Y y$
+" make backspace behave in a sane manner
+set backspace=indent,eol,start
 
