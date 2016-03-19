@@ -76,3 +76,12 @@ nnoremap <Leader>rtw :%s/\s\+$//ge<CR>
 :command Q q
 :command Qa qa
 :command QA qa
+
+" Ignore case when searching
+set ignorecase
+"
+" "                           When searching try to be smart about cases
+set smartcase
+set ai "Apple_Terminaluto indent
+set si "Smart indent
+
