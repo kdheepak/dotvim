@@ -24,3 +24,10 @@ set expandtab
 
 set wrap "automatically wrap on load
 "set fo-=t " don't automatically wrap text when typign
+
+set hlsearch
+set incsearch
+
+" press space to turn off highlighting and clear any message already
+" displayed.
+nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
