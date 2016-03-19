@@ -31,3 +31,22 @@ set incsearch
 " press space to turn off highlighting and clear any message already
 " displayed.
 nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>
+
+set cursorline " highlightcurrent line
+
+set showcmd " show command in bottom bar
+
+set wildmenu
+
+set lazyredraw
+set foldenable
+
+set foldnestmax=10      " 10 nested fold max
+
+set foldlevelstart=10   " open most folds by default
+set foldmethod=indent   " fold based on indent level
+
+"  move vertically by visual line
+nnoremap j gj
+nnoremap k gk
+
