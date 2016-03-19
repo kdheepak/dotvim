@@ -50,3 +50,7 @@ set foldmethod=indent   " fold based on indent level
 nnoremap j gj
 nnoremap k gk
 
+" scroll the viewport faster
+nnoremap <C-e> 3<C-e>
+nnoremap <C-y> 3<C-y>
+
