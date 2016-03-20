@@ -66,6 +66,8 @@ nnoremap <Leader>rtw :%s/\s\+$//ge<CR>
 :command Qa qa
 :command QA qa
 
+:map Q <Nop>
+
 " Ignore case when searching
 set ignorecase
 
