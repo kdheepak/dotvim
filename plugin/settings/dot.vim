@@ -61,7 +61,6 @@ nnoremap <Leader>rtw :%s/\s\+$//ge<CR>
  
 :command WQ wq
 :command Wq wq
-:command W w
 :command Q q
 :command Qa qa
 :command QA qa
@@ -81,3 +80,9 @@ set si "Smart indent
 if has("autocmd")
   au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
 endif
+
+function WriteCreatingDirs()
+    execute ':silent !mkdir -p %:h'
+    write
+endfunction
+command W call WriteCreatingDirs()
