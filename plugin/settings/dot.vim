@@ -86,3 +86,6 @@ function WriteCreatingDirs()
     write
 endfunction
 command W call WriteCreatingDirs()
+
+vnoremap y myy`y
+vnoremap Y myY`y
