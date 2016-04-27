@@ -87,9 +87,6 @@ function WriteCreatingDirs()
 endfunction
 command W call WriteCreatingDirs()
 
-vnoremap y myy`y
-vnoremap Y myY`y
-
 function! ToggleMovement(firstOp, thenOp)
   let pos = getpos('.')
   execute "normal! " . a:firstOp
