@@ -7,3 +7,5 @@ set list listchars=tab:>-,extends:»,precedes:«
 au filetype py set autoindent
 au filetype py set smartindent
 au filetype py set textwidth=79 " pep-8 friendly
+
+autocmd BufRead *.py inoremap # X<c-h>#
