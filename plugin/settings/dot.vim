@@ -109,3 +109,5 @@ nnoremap <silent> L :call ToggleMovement('L', 'H')<CR>
 " How about G and gg
 nnoremap <silent> G :call ToggleMovement('G', 'gg')<CR>
 nnoremap <silent> gg :call ToggleMovement('gg', 'G')<CR>
+
+set cindent
