@@ -1,4 +1,4 @@
-let g:syntastic_python_flake8_post_args='--ignore=E501,E128,E225'
+let g:syntastic_python_flake8_post_args='--ignore=E501,E128,E225,F401,W391'
 
 au filetype python set omnifunc=pythoncomplete#complete
 
