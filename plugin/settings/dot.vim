@@ -1,3 +1,5 @@
+set clipboard=unnamed
+
 syntax enable
 " " tell it to use an undo file
 set undofile
